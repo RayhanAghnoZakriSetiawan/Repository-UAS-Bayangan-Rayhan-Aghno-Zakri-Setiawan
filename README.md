@@ -22,8 +22,10 @@ Dari Paper asli (The Impact of Large Language Models (LLMs) on Code Review Proce
 
 ## Metodologi 
 
-=> Baseline (Tiru) : Mengirim code snippet (dari PR) ke LLM dengan menggunakan shot prompt standar <br>
-=> Modifikasi (RAG) : Mengambil snippet, mencari review historis yang paling mirip dengan Oracle Vector DB, dan memasukkannya sebagai few-shot context ke dalam prompt LLM. <br>
+=> Baseline (Tiru) : Mengirim code snippet (dari PR) ke LLM dengan menggunakan shot prompt standar 
+<br>
+=> Modifikasi (RAG) : Mengambil snippet, mencari review historis yang paling mirip dengan Oracle Vector DB, dan memasukkannya sebagai few-shot context ke dalam prompt LLM. 
+<br>
 => Evaluasi : Menghitung perbedaan skor seperti Precision antara Baseline dan RAG <br>
 
 ## Struktur Direktori : 
